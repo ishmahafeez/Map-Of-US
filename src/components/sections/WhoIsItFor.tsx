@@ -3,7 +3,7 @@ import { AudienceCard } from "../ui/AudienceCard";
 
 export const WhoIsItFor: React.FC = () => {
   return (
-    <section className="flex flex-col items-center px-[205px] py-[70px] max-md:px-[100px] max-sm:px-5">
+    <section className="flex flex-col items-center px-[205px] py-[70px] mt-[-80px] max-md:px-[100px] max-sm:px-5">
       <h2 className="text-center text-[40px] mb-5">Who Is It For?</h2>
       <div className="flex gap-[29px] max-md:flex-wrap max-sm:flex-col">
         <AudienceCard

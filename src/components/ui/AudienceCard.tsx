@@ -1,15 +1,18 @@
 import React from "react";
+import { cn } from "@/lib/utils";
 
 interface AudienceCardProps {
   title: string;
   description: string;
   image: string;
+  className?: string;
 }
 
 export const AudienceCard: React.FC<AudienceCardProps> = ({
   title,
   description,
   image,
+  className,
 }) => {
   return (
     <div className="flex-1 bg-[#EBE9E0] flex flex-col items-center p-10 border-4 border-[#957EC2]">

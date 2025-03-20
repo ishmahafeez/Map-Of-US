@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="border-t border-b border-gray-200 py-[30px] flex flex-col items-center">
       <a 
-        href="https://instagram.com" 
+        href="https://www.instagram.com/ish_maps/" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="mb-4 text-black hover:text-[#957EC2] transition-colors"
@@ -19,4 +19,4 @@ export const Footer: React.FC = () => {
       </p>
     </footer>
   );
-};
+}
