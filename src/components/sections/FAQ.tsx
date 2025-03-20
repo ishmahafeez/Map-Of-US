@@ -4,7 +4,7 @@ import { FAQItem } from "../ui/FAQItem";
 
 export const FAQ: React.FC = () => {
   return (
-    <section className="flex flex-col items-center px-[205px] py-[70px] max-md:px-[100px] max-sm:px-5 bg-[#F9F7F2]">
+    <section className="flex flex-col items-center px-[205px] py-[70px] max-md:px-[100px] max-sm:px-5 bg-[#F5F2E9]">
       <h2 className="text-center text-[28px] font-bold mb-[30px]">
         Frequently asked questions
       </h2>
