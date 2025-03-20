@@ -1,3 +1,4 @@
+
 import React from "react";
 
 export const Header: React.FC = () => {
@@ -18,12 +19,12 @@ export const Header: React.FC = () => {
           "It's not just a gift, it's a story being told, a story that speaks
           volumes even without words."
         </h1>
-        <p className="text-[#957EC2] text-center text-xl font-bold leading-normal max-sm:text-base">
+        <p className="text-[#957EC2] text-center text-xl font-bold leading-normal font-lora max-sm:text-base">
           Turning peoples relationships into maps
         </p>
       </div>
       <div className="absolute w-full flex justify-center pb-[51px] bottom-0">
-        <button className="text-white text-center text-base font-medium w-[187px] h-[51px] bg-[#957EC2] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] hover:bg-[#8670B0] transition-colors">
+        <button className="text-white text-center text-base font-medium font-inter w-[187px] h-[51px] bg-[#957EC2] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] hover:bg-[#8670B0] transition-colors">
           Order Yours
         </button>
       </div>

@@ -20,6 +20,8 @@ export default {
 		extend: {
 			fontFamily: {
 				judson: ['Judson', 'serif'],
+				lora: ['Lora', 'serif'],
+				inter: ['Inter', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
