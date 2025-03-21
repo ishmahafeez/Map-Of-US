@@ -7,12 +7,12 @@ export const AboutUs: React.FC = () => {
 
   return (
     <section className="flex flex-col items-center px-[205px] py-[70px] max-md:px-[100px] max-sm:px-5 mt-[-80px]">
-      <h2 className="text-center text-[40px] mb-5">About Us</h2>
+      <h2 className="text-center text-[40px] mb-5 font-medium">About Us</h2>
       {isMobile ? (
-        // Mobile layout
-        <div className="w-full max-w-[300px] bg-[#EBE9E0] p-5">
-          <div className="flex flex-row">
-            <div className="w-[80px] h-[193px] bg-[#957EC2] flex flex-col justify-between p-3 mr-4">
+        // Mobile layout - matches the reference image
+        <div className="w-full max-w-[350px] bg-[#EBE9E0] p-6">
+          <div className="flex flex-row gap-5">
+            <div className="w-[80px] min-w-[80px] h-[193px] bg-[#957EC2] flex flex-col justify-between p-3">
               <h3 className="text-white text-base font-bold">
                 A single title comes here
               </h3>
@@ -20,17 +20,19 @@ export const AboutUs: React.FC = () => {
                 Lorem ipsum dolor sit amet, consectetur
               </p>
             </div>
-            <div className="text-base flex-1">
-              The "Map of Us" is a handmade, minimalist sketch—a first-glance
-              depiction that grasps the essence of your entire relationship story,
-              allowing you to visually experience the deep connection you share with
-              your loved ones.
-              <br />
-              <br />
-              While albums and pictures capture only a fraction of
-              the story, this experience brings to life everything that exists in
-              memory—every precious moment, the little details, the shared
-              activities, and the milestones that left a lasting mark.
+            <div className="text-sm">
+              <p className="mb-4">
+                The "Map of Us" is a handmade, minimalist sketch—a first-glance
+                depiction that grasps the essence of your entire relationship story,
+                allowing you to visually experience the deep connection you share with
+                your loved ones.
+              </p>
+              <p>
+                While albums and pictures capture only a fraction of
+                the story, this experience brings to life everything that exists in
+                memory—every precious moment, the little details, the shared
+                activities, and the milestones that left a lasting mark.
+              </p>
             </div>
           </div>
         </div>
