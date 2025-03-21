@@ -51,8 +51,7 @@ export const Templates: React.FC = () => {
           }
         />
       </div>
-      <button className="w-full bg-[#957EC2] font-inter shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] text-center text-white text-2xl font-medium mt-[35px] py-2.5 rounded-[10px] hover:bg-[#8670B0] transition-colors">
-        Get Yours
+      <button className="w-[350px] bg-[#957EC2] font-inter shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] text-center text-white text-2xl font-medium mt-[35px] py-2.5 rounded-[10px] hover:bg-[#8670B0] transition-colors">        Get Yours
       </button>
     </section>
   );

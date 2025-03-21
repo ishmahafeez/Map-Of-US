@@ -8,8 +8,7 @@ export const FAQ: React.FC = () => {
       <h2 className="text-center text-[28px] font-bold mb-[30px]">
         Frequently asked questions
       </h2>
-      <div className="w-full max-w-[838px]">
-        <FAQItem 
+        <div className="w-full max-w-[838px] max-sm:w-[350px]">        <FAQItem 
           question="What is the process to Map Of US?" 
           answer="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
         />

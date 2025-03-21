@@ -22,7 +22,7 @@ export const AudienceCard: React.FC<AudienceCardProps> = ({
     <div className={cn(
       "flex-1 bg-[#EBE9E0] border-4 border-[#957EC2]",
       isMobile 
-        ? "flex flex-row items-center p-4 h-[113px]" 
+        ? "w-[350px] flex flex-row items-center p-4 h-[113px]" 
         : "flex flex-col items-center p-10",
       className
     )}>
