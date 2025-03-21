@@ -11,8 +11,8 @@ export const AboutUs: React.FC = () => {
       {isMobile ? (
         // Mobile layout
         <div className="w-full max-w-[300px] bg-[#EBE9E0] p-5">
-          <div className="flex flex-col">
-            <div className="w-[80px] h-[193px] bg-[#957EC2] flex flex-col justify-between p-3 mb-4">
+          <div className="flex flex-row">
+            <div className="w-[80px] h-[193px] bg-[#957EC2] flex flex-col justify-between p-3 mr-4">
               <h3 className="text-white text-base font-bold">
                 A single title comes here
               </h3>
@@ -20,7 +20,7 @@ export const AboutUs: React.FC = () => {
                 Lorem ipsum dolor sit amet, consectetur
               </p>
             </div>
-            <div className="text-base">
+            <div className="text-base flex-1">
               The "Map of Us" is a handmade, minimalist sketch—a first-glance
               depiction that grasps the essence of your entire relationship story,
               allowing you to visually experience the deep connection you share with
