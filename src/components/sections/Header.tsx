@@ -33,9 +33,12 @@ export const Header: React.FC = () => {
        </p>
       </div>
       <div className="absolute w-full flex justify-center pb-[51px] bottom-[-60px]">
-        <button className="text-white text-center text-base font-medium font-inter w-[187px] h-[51px] bg-[#957EC2] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] hover:bg-[#8670B0] transition-colors">
-          Order Yours
-        </button>
+      <button
+        className="text-white text-center text-base font-medium font-inter w-[187px] h-[51px] bg-[#957EC2] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] hover:bg-[#8670B0] transition-colors"
+        onClick={() => window.open("https://www.instagram.com/ish_maps/", "_blank")}
+      >
+        Order Yours
+      </button>
       </div>
     </section>
   );

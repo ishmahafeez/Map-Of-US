@@ -12,8 +12,8 @@ export const Templates: React.FC = () => {
   description={
     <ul>
       <li>• 5 locations</li>
-      <li>• $300 - Digital Delivery</li>
-      <li>• $345 - Digital + Physical Print </li>
+      <li>• $200 - Digital Delivery</li>
+      <li>• $245 - Digital + Physical Print </li>
       <li>• 16x20 in.</li>
       <li>• 11X14in. </li>
       <li>• 11 in. Wooden Frame</li>
@@ -29,8 +29,8 @@ export const Templates: React.FC = () => {
             <ul>
               <li>• 8 locations</li>
               <li>• Features a timeline of your relationship</li>
-              <li>• $650 - Digital Delivery</li>
-              <li>• $715 - Digital + Physical Print </li>
+              <li>• $500 - Digital Delivery</li>
+              <li>• $550 - Digital + Physical Print </li>
               <li>• 16X20 in. </li>
               <li>• 16 in. Wooden Frame</li>
             </ul>
@@ -43,16 +43,20 @@ export const Templates: React.FC = () => {
             <ul>
               <li>• 12 locations</li>
               <li>• Features a timeline of your relationship</li>
-              <li>• $800 - Digital Delivery</li>
-              <li>• $865 - Digital + Physical Print </li>
+              <li>• $700 - Digital Delivery</li>
+              <li>• $765 - Digital + Physical Print </li>
               <li>• 16X20 in. </li>
               <li>• 16 in. Wooden Frame</li>
             </ul>
           }
         />
       </div>
-      <button className="w-full max-sm:w-[350px] bg-[#957EC2] font-inter shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] text-center text-white text-2xl font-medium mt-[35px] py-2.5 rounded-[10px] hover:bg-[#8670B0] transition-colors">        Get Yours
-      </button>
+   <button
+     className="w-full max-sm:w-[350px] bg-[#957EC2] font-inter shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] text-center text-white text-2xl font-medium mt-[35px] py-2.5 rounded-[10px] hover:bg-[#8670B0] transition-colors"
+     onClick={() => window.open("https://www.instagram.com/ish_maps/", "_blank")}
+   >
+     Get Yours
+   </button>
     </section>
   );
 };

@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -6,9 +5,10 @@ import { cn } from "@/lib/utils";
 interface FAQItemProps {
   question: string;
   answer?: string;
+  htmlAnswer?: React.ReactNode;
 }
 
-export const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
+export const FAQItem: React.FC<FAQItemProps> = ({ question, answer, htmlAnswer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -31,9 +31,13 @@ export const FAQItem: React.FC<FAQItemProps> = ({ question, answer }) => {
           {isOpen ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
         </div>
       </button>
-      {answer && isOpen && (
+      {isOpen && (
         <div className="px-5 pb-4 text-sm text-gray-700 border-t border-[#E5E5E5]">
-          {answer}
+          {htmlAnswer ? (
+            <div className="prose prose-sm max-w-none">{htmlAnswer}</div>
+          ) : answer ? (
+            <p>{answer}</p>
+          ) : null}
         </div>
       )}
     </div>
