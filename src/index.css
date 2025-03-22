@@ -126,3 +126,41 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Ensure the root container fills the viewport */
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fix for iOS status bar */
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    height: -webkit-fill-available;
+  }
+  #root {
+    min-height: -webkit-fill-available;
+  }
+}
+
+/* Ensure the root container fills the viewport */
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fix for iOS status bar */
+@supports (-webkit-touch-callout: none) {
+  body {
+    /* The hack for Safari */
+    height: -webkit-fill-available;
+  }
+  #root {
+    min-height: -webkit-fill-available;
+  }
+}
