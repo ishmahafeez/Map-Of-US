@@ -1,3 +1,4 @@
+
 import React from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
 
@@ -12,10 +13,17 @@ export const Header: React.FC = () => {
         className="w-full h-[715px] object-cover"
       />
       <div
-        className={`absolute w-full flex justify-center ${
+        className={`absolute w-full flex justify-center items-center ${
           isMobile ? "top-[100px]" : "top-[63px]"
         }`}
       >
+        {!isMobile && (
+          <img
+            src="/lovable-uploads/2d2996f8-8f96-4b66-b69c-db15f65a8e1b.png"
+            alt="Logo"
+            className="h-[168px] w-auto mr-6"
+          />
+        )}
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/e743a060b73910b734f988712c642512bb3623cd"
           alt="Map of us logo"
