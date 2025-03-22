@@ -17,13 +17,13 @@ export const Header: React.FC = () => {
           isMobile ? "top-[100px]" : "top-[63px]"
         }`}
       >
-        {!isMobile && (
-          <img
-            src="/lovable-uploads/2d2996f8-8f96-4b66-b69c-db15f65a8e1b.png"
-            alt="Logo"
-            className="h-[168px] w-auto mr-6"
-          />
-        )}
+<img 
+  src="/lovable-uploads/2d2996f8-8f96-4b66-b69c-db15f65a8e1b.png" 
+  alt="Logo" 
+  width={50} 
+  height={50} 
+  className="w-20 h-20 object-contain mt-[-20px] max-sm:w-8 max-sm:h-8" 
+/>
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/e743a060b73910b734f988712c642512bb3623cd"
           alt="Map of us logo"

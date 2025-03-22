@@ -27,13 +27,13 @@ export const Footer: React.FC = () => {
           className="text-black hover:text-[#957EC2] transition-colors cursor-pointer"
           aria-label="Scroll to top"
         >
-          <img 
-            src="/lovable-uploads/2d2996f8-8f96-4b66-b69c-db15f65a8e1b.png" 
-            alt="Logo" 
-            width={24} 
-            height={24} 
-            className="w-6 h-6 object-contain" 
-          />
+        <img 
+          src="/lovable-uploads/2d2996f8-8f96-4b66-b69c-db15f65a8e1b.png" 
+          alt="Logo" 
+          width={40} 
+          height={40} 
+          className="w-10 h-10 object-contain" 
+        />
         </button>
       </div>
       <p className="text-center text-sm opacity-75">

@@ -9,16 +9,6 @@ export const FAQ: React.FC = () => {
       </h2>
         <div className="w-full max-w-[838px] max-sm:w-[350px]">        
           <FAQItem 
-            question="What is the process to Map Of US?" 
-            htmlAnswer={
-              <>
-                <p className="mb-2">After placing your order, you'll receive a Questionnaire via email with guided prompts to share stories, photos, and details about milestones, special places, trips, hobbies, pets, kids, and cherished memories. This ensures your map reflects what matters most. (If this is a gift, you can forward it to the recipient to fill out.)</p>
-                <p className="mb-2">Once your turn in the queue arrives, I'll send an initial outline of your map for review, allowing us to discuss any changes. Then, I'll begin creating your one-of-a-kind piece!</p>
-                <p>You'll receive a Finished Draft 1-2 weeks before your promised ship date, where you can request final edits. If changes are needed, please allow 2-3 days for adjustments. After that, you'll receive a High-Resolution file, and for US orders, your physical print will be on its way! ❤️</p>
-              </>
-            }
-          />
-          <FAQItem 
             question="What makes Map Of Us stand out from the crowd?" 
             htmlAnswer={
               <ul className="list-disc pl-5 space-y-1">
@@ -26,19 +16,36 @@ export const FAQ: React.FC = () => {
                 <li>More Than Photos – Captures emotions, milestones, and shared memories.</li>
                 <li>One-of-a-Kind – Every map is uniquely crafted for each couple.</li>
                 <li>Sentimental Keepsake – A timeless reminder of love and connection.</li>
-                <li className="mt-2 list-none italic">It's not just a map—it's your story in art.</li>
+                <li className="mt-2 list-none italic">it’s not just a gift, it’s a story being told, a story that speaks volumes even without words.”</li>
               </ul>
             }
           />
+            <FAQItem 
+              question="What is the process to Map Of US?" 
+              htmlAnswer={
+                <>
+                  <p className="mb-2">After placing your order, you'll redirected to instagram where you will receive a  Questionnaire guided prompts to share stories, photos, and details about milestones, special places, trips, hobbies, pets, kids, and cherished memories. This ensures your map reflects what matters most. (If this is a gift, you can forward it to the recipient to fill out.)</p>
+                  <p className="mb-2">Once your turn in the queue arrives, I'll send an initial outline of your map for review, allowing us to discuss any changes. Then, I'll begin creating your one-of-a-kind piece!</p>
+            
+                </>
+              }
+            />
           <FAQItem 
             question='What do you mean by "Locations"?' 
             answer="Locations refer to meaningful places in your journey—where you met, your first home, favorite date spots, or any place with special memories that make your story unique."
           />
           <FAQItem
             question="How long till my Map of Us arrives?"
-            answer="It takes about a week to sketch, create the layout, finalize the draft, and make any requested changes before it's ready for delivery."
+            htmlAnswer={
+              <>
+                <p className="mb-2">It takes about a week to sketch, create the layout, finalize the draft, and make any requested changes before it's ready for delivery."</p>
+                <p className="mb-2">You'll receive a Finished Draft 1-2 weeks before your promised ship date, where you can request final edits. If changes are needed, please allow 2-3 days for adjustments. After that, you'll receive a High-Resolution file, and for US orders, your physical print will be on its way! ❤️</p>
+          
+              </>
+            }
           />
-      </div>
+        </div>
+  
     </section>
   );
 };

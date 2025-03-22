@@ -21,6 +21,7 @@ export const Templates: React.FC = () => {
               <li>• 16x20 in.</li>
               <li>• 11X14in. </li>
               <li>• 11 in. Wooden Frame</li>
+              <li style={{ color: '#EBE9E0' }}> map of us</li>
             </ul>
           }
         />
