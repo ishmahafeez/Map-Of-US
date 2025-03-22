@@ -1,4 +1,7 @@
+
 import React from "react";
+import { useIsMobile } from "@/hooks/use-mobile";
+
 interface TemplateCardProps {
   image: string;
   title: string;
@@ -10,11 +13,19 @@ export const TemplateCard: React.FC<TemplateCardProps> = ({
   title,
   description,
 }) => {
+  const isMobile = useIsMobile();
+  
   return (
-   <div className="flex-1 bg-[#EBE9E0] flex flex-col items-start p-[35px]">
-     <img src={image} alt={title} className="w-[264px] h-[292px] mb-[30px]" />
-     <h3 className="text-xl font-bold mb-[15px]">{title}</h3>
-     <div className="text-s text-left">{description}</div>
+   <div className="flex-1 bg-[#EBE9E0] flex flex-col items-start p-4 md:p-5 lg:p-[35px] h-full">
+     <div className="w-full flex justify-center">
+       <img 
+         src={image} 
+         alt={title} 
+         className="w-full max-w-[264px] h-auto aspect-[264/292] mb-5 md:mb-[20px] lg:mb-[30px] object-cover"
+       />
+     </div>
+     <h3 className="text-xl font-bold mb-3 md:mb-[15px]">{title}</h3>
+     <div className="text-s text-left w-full">{description}</div>
    </div>
   );
 };
