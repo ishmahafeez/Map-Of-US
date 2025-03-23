@@ -16,8 +16,8 @@ export const Templates: React.FC = () => {
           description={
             <ul>
               <li>• 5 locations</li>
-              <li>• $200 - Digital Delivery</li>
-              <li>• $245 - Digital + Physical Print </li>
+              <li>• $75 - Digital Delivery</li>
+              <li>• $100 - Digital + Physical Print </li>
               <li>• 16x20 in.</li>
               <li>• 11X14in. </li>
               <li>• 11 in. Wooden Frame</li>
@@ -33,8 +33,8 @@ export const Templates: React.FC = () => {
             <ul>
               <li>• 8 locations</li>
               <li>• Features a timeline of your relationship</li>
-              <li>• $500 - Digital Delivery</li>
-              <li>• $550 - Digital + Physical Print </li>
+              <li>• $125 - Digital Delivery</li>
+              <li>• $150 - Digital + Physical Print </li>
               <li>• 16X20 in. </li>
               <li>• 16 in. Wooden Frame</li>
             </ul>
@@ -47,8 +47,8 @@ export const Templates: React.FC = () => {
             <ul>
               <li>• 12 locations</li>
               <li>• Features a timeline of your relationship</li>
-              <li>• $700 - Digital Delivery</li>
-              <li>• $765 - Digital + Physical Print </li>
+              <li>• $150 - Digital Delivery</li>
+              <li>• $175 - Digital + Physical Print </li>
               <li>• 16X20 in. </li>
               <li>• 16 in. Wooden Frame</li>
             </ul>
