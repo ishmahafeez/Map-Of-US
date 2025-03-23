@@ -32,7 +32,7 @@ export const Footer: React.FC = () => {
           alt="Logo" 
           width={40} 
           height={40} 
-          className="w-10 h-10 object-contain" 
+          className="w-[24px] h-[24px] object-contain" 
         />
         </button>
       </div>
