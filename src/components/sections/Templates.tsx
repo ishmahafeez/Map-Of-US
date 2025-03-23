@@ -9,7 +9,7 @@ export const Templates: React.FC = () => {
   return (
     <section className="flex flex-col items-center px-5 py-[70px] md:px-8 lg:px-[205px]">
       <h2 className="text-center text-[40px] mb-5">Templates</h2>
-      <div className="flex gap-4 w-full max-md:flex-wrap max-sm:flex-col">
+      <div className="flex gap-4 w-full max-md:flex-wrap max-sm:flex-col items-center sm:items-stretch">
         <TemplateCard
           image="https://cdn.builder.io/api/v1/image/assets/TEMP/89c14aefe40e7947b4940654b0369816abb93e38"
           title="Basic Map Of Us"

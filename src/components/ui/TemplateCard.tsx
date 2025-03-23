@@ -16,7 +16,7 @@ export const TemplateCard: React.FC<TemplateCardProps> = ({
   const isMobile = useIsMobile();
   
   return (
-   <div className="flex-1 bg-[#EBE9E0] flex flex-col items-start p-4 md:p-5 lg:p-[35px] h-full">
+   <div className="flex-1 bg-[#EBE9E0] flex flex-col items-start p-4 md:p-5 lg:p-[35px] h-full max-w-[350px] sm:max-w-none mx-auto sm:mx-0">
      <div className="w-full flex justify-center">
        <img 
          src={image} 
