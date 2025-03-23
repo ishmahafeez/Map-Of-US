@@ -11,7 +11,7 @@ export const Templates: React.FC = () => {
       <h2 className="text-center text-[40px] mb-5">Templates</h2>
       <div className="flex gap-4 w-full max-md:flex-wrap max-sm:flex-col">
         <TemplateCard
-          image="https://cdn.builder.io/api/v1/image/assets/TEMP/89c14aefe40e7947b4940654b0369816abb93e38"
+          image="/lovable-uploads/23ec88cf-deec-4df5-a841-6f249154d5d7.png"
           title="Basic Map Of Us"
           description={
             <ul>
