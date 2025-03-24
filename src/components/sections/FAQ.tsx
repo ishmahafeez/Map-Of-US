@@ -1,9 +1,13 @@
+
 import React from "react";
 import { FAQItem } from "../ui/FAQItem";
+import { useIsTablet } from "@/hooks/use-tablet";
 
 export const FAQ: React.FC = () => {
+  const isTablet = useIsTablet();
+  
   return (
-    <section className="flex flex-col items-center px-[205px] py-[70px] mt-[-80px] max-md:px-[100px] max-sm:px-5 bg-[#F5F2E9]">
+    <section className="flex flex-col items-center px-5 py-[70px] mt-[-80px] md:px-8 lg:px-[205px] max-sm:px-5 bg-[#F5F2E9]">
       <h2 className="text-center text-[28px] font-bold mb-[30px]">
         Frequently asked questions
       </h2>
@@ -16,7 +20,7 @@ export const FAQ: React.FC = () => {
                 <li>More Than Photos – Captures emotions, milestones, and shared memories.</li>
                 <li>One-of-a-Kind – Every map is uniquely crafted for each couple.</li>
                 <li>Sentimental Keepsake – A timeless reminder of love and connection.</li>
-                <li className="mt-2 list-none italic">it’s not just a gift, it’s a story being told, a story that speaks volumes even without words.”</li>
+                <li className="mt-2 list-none italic">it's not just a gift, it's a story being told, a story that speaks volumes even without words."</li>
               </ul>
             }
           />
