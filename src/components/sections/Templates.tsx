@@ -9,7 +9,7 @@ export const Templates: React.FC = () => {
   return (
     <section className="flex flex-col items-center px-5 py-[70px] md:px-8 lg:px-[205px]">
       <h2 className="text-center text-[40px] mb-5">Templates</h2>
-      <div className="flex gap-4 w-full max-md:flex-wrap max-sm:flex-col">
+      <div className="flex gap-4 w-full max-md:flex-wrap max-sm:flex-col max-sm:items-center">
         <TemplateCard
           image="/lovable-uploads/23ec88cf-deec-4df5-a841-6f249154d5d7.png"
           title="Basic Map Of Us"
@@ -56,7 +56,7 @@ export const Templates: React.FC = () => {
         />
       </div>
       <button
-        className="w-full max-w-[400px] md:max-w-[500px] bg-[#957EC2] font-inter shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] text-center text-white text-2xl font-medium mt-[35px] py-2.5 rounded-[10px] hover:bg-[#8670B0] transition-colors"
+        className="w-full max-w-[350px] md:max-w-[500px] bg-[#957EC2] font-inter shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] text-center text-white text-2xl font-medium mt-[35px] py-2.5 rounded-[10px] hover:bg-[#8670B0] transition-colors"
         onClick={() => window.open("https://www.instagram.com/ish_maps/", "_blank")}
       >
         Get Yours
