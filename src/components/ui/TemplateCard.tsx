@@ -24,8 +24,10 @@ export const TemplateCard: React.FC<TemplateCardProps> = ({
          className="w-full max-w-[264px] h-auto aspect-[264/292] mb-5 md:mb-[20px] lg:mb-[30px] object-cover"
        />
      </div>
-     <h3 className="text-xl font-bold mb-3 md:mb-[15px]">{title}</h3>
-     <div className="text-s text-left w-full">{description}</div>
+     <div className="w-full px-[calc((100%-264px)/2)] md:px-0">
+       <h3 className="text-xl font-bold mb-3 md:mb-[15px]">{title}</h3>
+       <div className="text-s text-left w-full">{description}</div>
+     </div>
    </div>
   );
 };
