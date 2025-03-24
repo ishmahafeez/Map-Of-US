@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
     <footer className="border-t border-b border-gray-200 py-[30px] flex flex-col items-center">
       <div className="flex items-center gap-4 mb-4">
         <a 
-          href="https://www.instagram.com/ish_maps/" 
+          href="https://www.instagram.com/map_of.us/" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="text-black hover:text-[#957EC2] transition-colors"
