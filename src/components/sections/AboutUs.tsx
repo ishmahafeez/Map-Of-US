@@ -38,7 +38,7 @@ export const AboutUs: React.FC = () => {
         </div>
       ) : (
         // Tablet and Desktop layout
-        <div className="w-full max-w-[1000px] bg-[#EBE9E0] p-5 md:p-[30px] lg:p-[50px]">
+        <div className="w-full bg-[#EBE9E0] p-5 md:p-[30px] lg:p-[50px]">
           <div className="flex gap-5 md:gap-[30px] flex-col md:flex-row">
             <div className="w-full md:w-[275px] h-[180px] md:h-[267px] bg-[#957EC2] flex flex-col justify-between p-4 md:p-5 shrink-0">
               <h3 className="text-white text-lg md:text-xl font-bold">
