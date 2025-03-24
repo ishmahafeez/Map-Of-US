@@ -17,17 +17,17 @@ export const Header: React.FC = () => {
           isMobile ? "top-[100px]" : "top-[63px]"
         }`}
       >
-<img 
-  src="/lovable-uploads/2d2996f8-8f96-4b66-b69c-db15f65a8e1b.png" 
-  alt="Logo" 
-  width={50} 
-  height={50} 
-  className="w-20 h-20 object-contain mt-[-20px] max-sm:w-8 max-sm:h-8" 
-/>
+        <img 
+          src="/lovable-uploads/2d2996f8-8f96-4b66-b69c-db15f65a8e1b.png" 
+          alt="Logo" 
+          width={50} 
+          height={50} 
+          className="w-20 h-20 object-contain mt-[-20px] max-sm:w-8 max-sm:h-8" 
+        />
         <img
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/e743a060b73910b734f988712c642512bb3623cd"
           alt="Map of us logo"
-          className={`${isMobile ? 'w-[90%] max-w-[400px] h-auto' : 'w-[660px] h-[168px] max-lg:w-[500px] max-sm:w-[320px]'}`}
+          className={`${isMobile ? 'w-[90%] max-w-[400px] h-auto' : 'w-[660px] h-auto max-lg:w-[500px] max-sm:w-[320px]'}`}
         />
       </div>
       <div className="absolute flex flex-col items-center gap-[55px] px-[260px] top-[168px] max-md:px-[100px] max-sm:px-5 mt-[-40px]">
