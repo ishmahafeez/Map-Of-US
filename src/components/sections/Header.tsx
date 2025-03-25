@@ -7,11 +7,11 @@ export const Header: React.FC = () => {
 
   return (
     <section className="relative w-full h-[725px] flex flex-col items-center top-[-50px]">
-      <img
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/8cabb150c33937d01dc4f2880c7780970fc3d7b4"
-        alt="Map of us background"
-        className="w-full h-[715px] object-cover"
-      />
+     <img
+       src="/lovable-uploads/Map_of_us_header_bg.jpg"
+       alt="Map of us background"
+       className="w-full h-[800px] object-cover mt-[-70px]"
+     />
       <div
         className={`absolute w-full flex justify-center items-center ${
           isMobile ? "top-[100px]" : "top-[63px]"
@@ -25,8 +25,8 @@ export const Header: React.FC = () => {
           className="w-20 h-20 object-contain mt-[-20px] max-sm:w-8 max-sm:h-8" 
         />
         <img
-          src="https://cdn.builder.io/api/v1/image/assets/TEMP/e743a060b73910b734f988712c642512bb3623cd"
-          alt="Map of us logo"
+       src="/lovable-uploads/map_of_us _header.PNG"
+       alt="Map of us logo"
           className={`${isMobile ? 'w-[90%] max-w-[400px] h-auto' : 'w-[660px] h-auto max-lg:w-[500px] max-sm:w-[320px]'}`}
         />
       </div>
