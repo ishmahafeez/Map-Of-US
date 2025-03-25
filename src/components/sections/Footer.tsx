@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
           aria-label="Scroll to top"
         >
         <img 
-          src="/lovable-uploads/2d2996f8-8f96-4b66-b69c-db15f65a8e1b.png" 
+          src="/lovable-uploads/logo.png" 
           alt="Logo" 
           width={40} 
           height={40} 

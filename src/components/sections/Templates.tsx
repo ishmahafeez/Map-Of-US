@@ -11,7 +11,7 @@ export const Templates: React.FC = () => {
       <h2 className="text-center text-[40px] mb-5">Templates</h2>
       <div className="flex gap-4 w-full max-md:flex-wrap max-sm:flex-col max-sm:items-center">
         <TemplateCard
-          image="/lovable-uploads/5.jpg"
+          image="/lovable-uploads/5_.jpg"
           title="Basic Map Of Us"
           description={
             <ul>
@@ -27,7 +27,8 @@ export const Templates: React.FC = () => {
         />
 
         <TemplateCard
-          image="https://cdn.builder.io/api/v1/image/assets/TEMP/89c14aefe40e7947b4940654b0369816abb93e38"
+          image="/lovable-uploads/8_.jpg"
+          
           title="Standard Map Of Us"
           description={
             <ul>
@@ -41,7 +42,7 @@ export const Templates: React.FC = () => {
           }
         />
         <TemplateCard
-          image="https://cdn.builder.io/api/v1/image/assets/TEMP/a20e5ed94a6f5c4fcf6c3948b64ef4f66bcc019b"
+          image="/lovable-uploads/12_.jpg"
           title="Premium Map Of Us"
           description={
             <ul>

@@ -18,7 +18,7 @@ export const Header: React.FC = () => {
         }`}
       >
         <img 
-          src="/lovable-uploads/2d2996f8-8f96-4b66-b69c-db15f65a8e1b.png" 
+          src="/lovable-uploads/logo.png" 
           alt="Logo" 
           width={50} 
           height={50} 
