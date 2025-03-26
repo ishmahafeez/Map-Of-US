@@ -12,11 +12,13 @@ export const Header: React.FC = () => {
        alt="Elegant custom relationship map background with soft tones - Map of Us"
        className="w-full h-[800px] object-cover mt-[-70px] will-change-transform"
        loading="eager"
+       decoding="async"
      />
       <div
         className={`absolute w-full flex justify-center items-center ${
           isMobile ? "top-[100px]" : "top-[63px]"
         } will-change-transform`}
+        style={{ contain: 'paint' }}
       >
         <img 
           src="/lovable-uploads/logo.png" 
@@ -25,15 +27,18 @@ export const Header: React.FC = () => {
           height={50} 
           className="w-20 h-20 object-contain mt-[-20px] max-sm:w-8 max-sm:h-8" 
           loading="eager"
+          decoding="async"
         />
         <img
           src="/lovable-uploads/map_of_us _header.PNG"
           alt="Map of Us brand text logo - Turning relationships into beautiful maps"
           className={`${isMobile ? 'w-[90%] max-w-[400px] h-auto' : 'w-[660px] h-auto max-lg:w-[500px] max-sm:w-[320px]'}`}
           loading="eager"
+          decoding="async"
         />
       </div>
-      <div className="absolute flex flex-col items-center gap-[55px] px-[260px] top-[168px] max-md:px-[100px] max-sm:px-5 mt-[-40px] will-change-transform">
+      <div className="absolute flex flex-col items-center gap-[55px] px-[260px] top-[168px] max-md:px-[100px] max-sm:px-5 mt-[-40px] will-change-transform"
+           style={{ contain: 'layout style paint' }}>
         <br/>
         <h1 className="w-[730px] text-center text-2xl font-bold leading-normal max-md:w-[500px] max-sm:w-full max-sm:text-xl">
           "It's not just a gift, it's a story being told, a story that speaks

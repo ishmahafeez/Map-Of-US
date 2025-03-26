@@ -11,7 +11,10 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="border-t border-b border-gray-200 py-[30px] flex flex-col items-center w-full transform-gpu will-change-transform">
+    <footer 
+      className="border-t border-b border-gray-200 py-[30px] flex flex-col items-center w-full transform-gpu will-change-transform" 
+      style={{ contain: 'layout style paint' }}
+    >
       <div className="flex items-center gap-4 mb-4">
         <a 
           href="https://www.instagram.com/map_of.us/" 
@@ -33,6 +36,8 @@ export const Footer: React.FC = () => {
           width={40} 
           height={40} 
           className="w-[24px] h-[24px] object-contain" 
+          loading="eager"
+          decoding="async"
         />
         </button>
       </div>
