@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
         >
         <img 
           src="/lovable-uploads/logo.png" 
-          alt="Logo" 
+          alt="Map of Us logo - Navigate to top of page" 
           width={40} 
           height={40} 
           className="w-[24px] h-[24px] object-contain" 

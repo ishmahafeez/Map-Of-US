@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
     <section className="relative w-full h-[725px] flex flex-col items-center top-[-50px]">
      <img
        src="/lovable-uploads/Map_of_us_header_bg.jpg"
-       alt="Map of us background"
+       alt="Elegant custom relationship map background with soft tones - Map of Us"
        className="w-full h-[800px] object-cover mt-[-70px]"
      />
       <div
@@ -19,14 +19,14 @@ export const Header: React.FC = () => {
       >
         <img 
           src="/lovable-uploads/logo.png" 
-          alt="Logo" 
+          alt="Map of Us official logo - Custom relationship maps" 
           width={50} 
           height={50} 
           className="w-20 h-20 object-contain mt-[-20px] max-sm:w-8 max-sm:h-8" 
         />
         <img
        src="/lovable-uploads/map_of_us _header.PNG"
-       alt="Map of us logo"
+       alt="Map of Us brand text logo - Turning relationships into beautiful maps"
           className={`${isMobile ? 'w-[90%] max-w-[400px] h-auto' : 'w-[660px] h-auto max-lg:w-[500px] max-sm:w-[320px]'}`}
         />
       </div>

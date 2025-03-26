@@ -20,7 +20,7 @@ export const TemplateCard: React.FC<TemplateCardProps> = ({
      <div className="w-full flex justify-center">
        <img 
          src={image} 
-         alt={title} 
+         alt={`${title} - Custom relationship map template with ${title.includes("Basic") ? "5" : title.includes("Standard") ? "8" : "12"} locations`} 
          className="w-full max-w-[264px] h-auto aspect-[264/292] mb-5 md:mb-[20px] lg:mb-[30px] object-cover"
        />
      </div>

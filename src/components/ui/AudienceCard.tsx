@@ -34,7 +34,7 @@ export const AudienceCard: React.FC<AudienceCardProps> = ({
           </div>
           <img
             src={image}
-            alt={`${title} illustration`}
+            alt={`${title} relationship map - Gift idea for ${title.toLowerCase()}`}
             className="w-auto h-[56px] ml-2"
           />
         </>
@@ -44,7 +44,7 @@ export const AudienceCard: React.FC<AudienceCardProps> = ({
           <p className="text-base text-center mb-[30px]">{description}</p>
           <img
             src={image}
-            alt={`${title} illustration`}
+            alt={`${title} relationship map - Perfect gift for ${title.toLowerCase()}`}
             className="w-auto h-[113px]"
           />
         </>
