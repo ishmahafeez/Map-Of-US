@@ -20,15 +20,15 @@ export const Header: React.FC = () => {
         } will-change-transform`}
         style={{ contain: 'paint' }}
       >
-        <img 
-          src="/lovable-uploads/logo.png" 
-          alt="Map of Us official logo - Custom relationship maps" 
-          width={50} 
-          height={50} 
-          className="w-20 h-20 object-contain mt-[-20px] max-sm:w-8 max-sm:h-8" 
-          loading="eager"
-          decoding="async"
-        />
+      <img 
+        src="/lovable-uploads/logo.png" 
+        alt="Map of Us official logo - Custom relationship maps" 
+        width={50} 
+        height={50} 
+        className="w-20 h-20 object-contain mt-[-20px] max-sm:w-8 max-sm:h-8 max-sm:hidden" 
+        loading="eager"
+        decoding="async"
+      />
         <img
           src="/lovable-uploads/map_of_us _header.PNG"
           alt="Map of Us brand text logo - Turning relationships into beautiful maps"
