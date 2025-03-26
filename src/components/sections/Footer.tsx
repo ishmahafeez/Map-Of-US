@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Instagram, MapPin } from "lucide-react";
+import { Instagram } from "lucide-react";
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
