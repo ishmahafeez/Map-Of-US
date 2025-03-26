@@ -6,16 +6,17 @@ export const Header: React.FC = () => {
   const isMobile = useIsMobile();
 
   return (
-    <section className="relative w-full h-[725px] flex flex-col items-center top-[-50px]">
+    <section className="relative w-full h-[725px] flex flex-col items-center top-[-50px] transform-gpu will-change-transform">
      <img
        src="/lovable-uploads/Map_of_us_header_bg.jpg"
        alt="Elegant custom relationship map background with soft tones - Map of Us"
-       className="w-full h-[800px] object-cover mt-[-70px]"
+       className="w-full h-[800px] object-cover mt-[-70px] will-change-transform"
+       loading="eager"
      />
       <div
         className={`absolute w-full flex justify-center items-center ${
           isMobile ? "top-[100px]" : "top-[63px]"
-        }`}
+        } will-change-transform`}
       >
         <img 
           src="/lovable-uploads/logo.png" 
@@ -23,14 +24,16 @@ export const Header: React.FC = () => {
           width={50} 
           height={50} 
           className="w-20 h-20 object-contain mt-[-20px] max-sm:w-8 max-sm:h-8" 
+          loading="eager"
         />
         <img
-       src="/lovable-uploads/map_of_us _header.PNG"
-       alt="Map of Us brand text logo - Turning relationships into beautiful maps"
+          src="/lovable-uploads/map_of_us _header.PNG"
+          alt="Map of Us brand text logo - Turning relationships into beautiful maps"
           className={`${isMobile ? 'w-[90%] max-w-[400px] h-auto' : 'w-[660px] h-auto max-lg:w-[500px] max-sm:w-[320px]'}`}
+          loading="eager"
         />
       </div>
-      <div className="absolute flex flex-col items-center gap-[55px] px-[260px] top-[168px] max-md:px-[100px] max-sm:px-5 mt-[-40px]">
+      <div className="absolute flex flex-col items-center gap-[55px] px-[260px] top-[168px] max-md:px-[100px] max-sm:px-5 mt-[-40px] will-change-transform">
         <br/>
         <h1 className="w-[730px] text-center text-2xl font-bold leading-normal max-md:w-[500px] max-sm:w-full max-sm:text-xl">
           "It's not just a gift, it's a story being told, a story that speaks

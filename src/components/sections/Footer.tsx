@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="border-t border-b border-gray-200 py-[30px] flex flex-col items-center">
+    <footer className="border-t border-b border-gray-200 py-[30px] flex flex-col items-center w-full transform-gpu will-change-transform">
       <div className="flex items-center gap-4 mb-4">
         <a 
           href="https://www.instagram.com/map_of.us/" 
