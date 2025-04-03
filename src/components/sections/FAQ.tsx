@@ -43,7 +43,7 @@ export const FAQ: React.FC = () => {
             htmlAnswer={
               <>
                 <p className="mb-2">It takes about a week to sketch, create the layout, finalize the draft, and make any requested changes before it's ready for delivery."</p>
-                <p className="mb-2">You'll receive a Finished Draft 1-2 weeks before your promised ship date, where you can request final edits. If changes are needed, please allow 2-3 days for adjustments. After that, you'll receive a High-Resolution file, and for US orders, your physical print will be on its way! ❤️</p>
+                <p className="mb-2">You'll receive a Finished Draft 1-2 weeks before your promised ship date, where you can request final edits. If changes are needed, please allow 2-3 days for adjustments. After that, you'll receive a High-Resolution file, and your physical print will be on its way! ❤️</p>
           
               </>
             }

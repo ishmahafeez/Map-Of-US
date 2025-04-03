@@ -18,9 +18,8 @@ export const Templates: React.FC = () => {
               <li>• 5 locations</li>
               <li>• $75 - Digital Delivery</li>
               <li>• $100 - Digital + Physical Print </li>
-              <li>• 16x20 in.</li>
-              <li>• 11X14in. </li>
-              <li>• 11 in. Wooden Frame</li>
+              <li>• 12X16.5 in. </li>
+              <li>• 12 in. Wooden Frame</li>
               <li style={{ color: '#EBE9E0' }}> map of us</li>
             </ul>
           }
