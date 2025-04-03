@@ -39,14 +39,19 @@ export const AboutUs: React.FC = () => {
       ) : (
         // Tablet and Desktop layout
         <div className="w-full bg-[#EBE9E0] p-5 md:p-[30px] lg:p-[50px]">
-          <div className="flex gap-5 md:gap-[30px] flex-col md:flex-row">
-            <div className="w-full md:w-[275px] h-[180px] md:h-[267px] bg-[#957EC2] flex flex-col justify-between p-4 md:p-5 shrink-0">
-              <h3 className="text-white text-lg md:text-xl font-bold">
-                Map Of Us
-              </h3>
-              <p className="text-white text-sm opacity-80">
-                Relationship journey maps 
-              </p>
+        <div className="flex gap-5 md:gap-[30px] flex-col md:flex-row">
+          <div className="w-full md:w-[275px] h-[180px] md:h-[267px] flex flex-col items-center justify-between p-4 md:p-5 shrink-0 relative">
+            <h3 className="text-white text-lg md:text-xl font-bold text-center z-10">
+              Map Of Us
+            </h3>
+            <img
+              src="/lovable-uploads/about_us.JPG"
+              alt="Relationship Journey"
+              className="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-0 opacity-100"
+            />
+            <p className="text-white text-base opacity-100 relative -mt-4 text-center z-10">
+              Relationship journey maps
+            </p>
             </div>
             <div className="text-base md:text-lg lg:text-xl flex-1">
               <p className="mb-4">
