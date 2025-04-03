@@ -11,31 +11,37 @@ export const AboutUs: React.FC = () => {
       {isMobile ? (
         // Mobile layout
         <div className="w-full max-w-[350px] bg-[#EBE9E0] p-6">
-          <div className="flex flex-col gap-5">
-            <div className="w-full h-[193px] bg-[#957EC2] flex flex-col justify-between p-3">
-              <h3 className="text-white text-base font-bold">
-                Map Of Us
-              </h3>
-              <p className="text-white text-xs opacity-80 mt-auto">
-                Relationship journey maps 
-              </p>
-            </div>
-            <div className="text-sm">
-              <p className="mb-4">
-                The "Map of Us" is a handmade, minimalist sketch—a first-glance
-                depiction that grasps the essence of your entire relationship story,
-                allowing you to visually experience the deep connection you share with
-                your loved ones.
-              </p>
-              <p>
-                While albums and pictures capture only a fraction of
-                the story, this experience brings to life everything that exists in
-                memory—every precious moment, the little details, the shared
-                activities, and the milestones that left a lasting mark.
-              </p>
-            </div>
+        <div className="flex flex-col gap-5">
+          <div className="w-full h-[193px] flex flex-col items-center justify-between p-3 relative">
+            <h3 className="text-white text-base font-bold text-center z-10">
+              Map Of Us
+            </h3>
+            <img
+              src="/lovable-uploads/about_us.JPG"
+              alt="Relationship Journey"
+              className="w-full h-full object-cover rounded-lg absolute top-0 left-0 z-0 opacity-100"
+            />
+            <p className="text-white text-xs opacity-100 relative -mt-2 text-center z-10">
+              Relationship journey maps
+            </p>
+          </div>
+          <div className="text-sm">
+            <p className="mb-4">
+              The "Map of Us" is a handmade, minimalist sketch—a first-glance
+              depiction that grasps the essence of your entire relationship story,
+              allowing you to visually experience the deep connection you share with
+              your loved ones.
+            </p>
+            <p>
+              While albums and pictures capture only a fraction of the story, this
+              experience brings to life everything that exists in memory—every
+              precious moment, the little details, the shared activities, and the
+              milestones that left a lasting mark.
+            </p>
           </div>
         </div>
+      </div>
+      
       ) : (
         // Tablet and Desktop layout
         <div className="w-full bg-[#EBE9E0] p-5 md:p-[30px] lg:p-[50px]">
