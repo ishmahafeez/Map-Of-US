@@ -51,7 +51,7 @@ export const Header: React.FC = () => {
       <div className="absolute w-full flex justify-center pb-[51px] bottom-[-60px]">
       <button
         className="text-white text-center text-base font-medium font-inter w-[187px] h-[51px] bg-[#957EC2] shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] rounded-[10px] hover:bg-[#8670B0] transition-colors"
-        onClick={() => window.open("https://www.instagram.com/map_of.us/", "_blank")}
+        onClick={() => window.open("https://www.instagram.com/ish.map/", "_blank")}
       >
         Order Yours
       </button>

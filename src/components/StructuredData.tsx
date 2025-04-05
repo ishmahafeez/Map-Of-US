@@ -49,7 +49,7 @@ export const OrganizationStructuredData: React.FC = () => {
     name: 'Map of Us',
     url: 'https://mapofus.com',
     logo: '/lovable-uploads/logo.png',
-    sameAs: ['https://www.instagram.com/map_of.us/'],
+    sameAs: ['https://www.instagram.com/ish.map/'],
   };
 
   return <StructuredData type="Organization" data={orgData} />;

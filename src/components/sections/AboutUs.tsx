@@ -13,7 +13,7 @@ export const AboutUs: React.FC = () => {
         <div className="w-full max-w-[350px] bg-[#EBE9E0] p-6">
         <div className="flex flex-col gap-5">
           <div className="w-full h-[193px] flex flex-col items-center justify-between p-3 relative">
-            <h3 className="text-white text-base font-bold text-center z-10">
+            <h3 className="text-white text-base font-bold text-center z-10"> 
               Map Of Us
             </h3>
             <img

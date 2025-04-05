@@ -57,7 +57,7 @@ export const Templates: React.FC = () => {
       </div>
       <button
         className="w-full max-w-[350px] md:max-w-[500px] bg-[#957EC2] font-inter shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] text-center text-white text-2xl font-medium mt-[35px] py-2.5 rounded-[10px] hover:bg-[#8670B0] transition-colors"
-        onClick={() => window.open("https://www.instagram.com/map_of.us//", "_blank")}
+        onClick={() => window.open("https://www.instagram.com/ish.map/", "_blank")}
       >
         Get Yours
       </button>
