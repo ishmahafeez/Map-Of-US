@@ -48,6 +48,16 @@ export const FAQ: React.FC = () => {
               </>
             }
           />
+          <FAQItem
+            question="Do you offer Physical Maps to international locations?"
+            htmlAnswer={
+              <>
+                <p className="mb-2">Unfortunately we do not offer Physical Map of Us to international locations at this time. ❤️</p>
+                <p className="mb-2">All Orders from Pakistan can receive a Physical Map of Us. ❤️</p>
+          
+              </>
+            }
+          />
         </div>
   
     </section>
