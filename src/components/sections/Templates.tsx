@@ -17,7 +17,7 @@ export const Templates: React.FC = () => {
             <ul>
               <li>• 5 locations</li>
               <li>• $75 - Digital Delivery</li>
-              <li>• $100 - Digital + Physical Print </li>
+              <li>• $80 - Digital + Physical Print (only available in Pakistan) </li>
               <li>• 12X16.5 in. </li>
               <li>• 12 in. Wooden Frame</li>
               <li style={{ color: '#EBE9E0' }}> map of us</li>
@@ -35,7 +35,7 @@ export const Templates: React.FC = () => {
               <li>• 8 locations</li>
               <li>• Features a timeline of your relationship</li>
               <li>• $125 - Digital Delivery</li>
-              <li>• $150 - Digital + Physical Print </li>
+              <li>• $133 - Digital + Physical Print (only available in Pakistan) </li>
               <li>• 16X20 in. </li>
               <li>• 16 in. Wooden Frame</li>
             </ul>
@@ -49,7 +49,7 @@ export const Templates: React.FC = () => {
               <li>• 12 locations</li>
               <li>• Features a timeline of your relationship</li>
               <li>• $150 - Digital Delivery</li>
-              <li>• $175 - Digital + Physical Print </li>
+              <li>• $158 - Digital + Physical Print (only available in Pakistan) </li>
               <li>• 16X20 in. </li>
               <li>• 16 in. Wooden Frame</li>
             </ul>
