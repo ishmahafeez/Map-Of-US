@@ -25,7 +25,7 @@ export const StructuredData: React.FC<StructuredDataProps> = ({ type, data }) =>
 export const ProductStructuredData: React.FC = () => {
   const productData = {
     name: 'Map of Us - Custom Relationship Map',
-    image: '/lovable-uploads/logo.png',
+    image: '/lovable-uploads/logo_with_bg.jpg',
     description: 'Transform your relationship journey into a beautiful, customized map.',
     brand: {
       '@type': 'Brand',
@@ -48,7 +48,7 @@ export const OrganizationStructuredData: React.FC = () => {
   const orgData = {
     name: 'Map of Us',
     url: 'https://mapofus.com',
-    logo: '/lovable-uploads/logo.png',
+    logo: '/lovable-uploads/logo_with_bg.jpg',
     sameAs: ['https://www.instagram.com/ish.map/'],
   };
 

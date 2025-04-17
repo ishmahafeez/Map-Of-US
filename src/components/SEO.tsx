@@ -13,7 +13,7 @@ export const SEO: React.FC<SEOProps> = ({
   title = 'Map of Us - Custom Relationship Maps as Meaningful Gifts',
   description = 'Transform your relationship journey into a beautiful, customized map. Perfect gifts for couples, friends, and family. Each map tells a unique story.',
   canonicalUrl = 'https://mapofus.com',
-  ogImage = '/lovable-uploads/logo.png',
+  ogImage = '/lovable-uploads/logo_with_bg.jpg',
 }) => {
   return (
     <Helmet>
