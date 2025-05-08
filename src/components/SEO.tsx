@@ -2,7 +2,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-interface SEOProps {
+interface SEOProps 
+{
   title?: string;
   description?: string;
   canonicalUrl?: string;
