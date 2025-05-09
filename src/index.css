@@ -96,6 +96,7 @@
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
+    background-color: #F5F2E9;
   }
   
   body {
@@ -104,6 +105,7 @@
     width: 100%;
     overflow-x: hidden;
     position: relative;
+    background-color: #F5F2E9;
   }
 }
 
@@ -126,21 +128,25 @@
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   position: relative;
+  background-color: #F5F2E9;
 }
 
 /* iOS specific fixes */
 @supports (-webkit-touch-callout: none) {
   body {
     height: -webkit-fill-available;
+    background-color: #F5F2E9;
   }
   
   #root {
     min-height: -webkit-fill-available;
+    background-color: #F5F2E9;
   }
   
   /* Enable scroll-to-top on status bar tap */
   html {
     scroll-behavior: smooth;
+    background-color: #F5F2E9;
   }
   
   body {
