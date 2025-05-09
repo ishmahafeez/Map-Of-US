@@ -94,21 +94,12 @@
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-  }
-  
-  html {
-    @apply bg-background;
-    height: 100%;
-    width: 100%;
-    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
   }
   
   body {
     @apply bg-background text-foreground font-judson;
-    min-height: 100vh;
-    width: 100%;
-    overflow-x: hidden;
-    position: relative;
     min-height: 100vh;
     width: 100%;
     overflow-x: hidden;
@@ -126,13 +117,7 @@
   }
 }
 
-/* Enable scroll-to-top on status bar tap for iOS */
-html {
-  -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
-}
-
-/* Ensure the root container fills the viewport */
+/* Root container styles */
 #root {
   min-height: 100vh;
   width: 100%;
@@ -140,34 +125,29 @@ html {
   flex-direction: column;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  position: relative;
 }
 
-/* Fix for iOS status bar */
+/* iOS specific fixes */
 @supports (-webkit-touch-callout: none) {
   body {
-    /* The hack for Safari */
     height: -webkit-fill-available;
   }
+  
   #root {
     min-height: -webkit-fill-available;
   }
-}
-
-/* Ensure the root container fills the viewport */
-#root {
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Fix for iOS status bar */
-@supports (-webkit-touch-callout: none) {
-  body {
-    /* The hack for Safari */
-    height: -webkit-fill-available;
+  
+  /* Enable scroll-to-top on status bar tap */
+  html {
+    scroll-behavior: smooth;
   }
+  
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+  
   #root {
-    min-height: -webkit-fill-available;
+    -webkit-overflow-scrolling: touch;
   }
 }
