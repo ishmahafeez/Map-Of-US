@@ -13,7 +13,7 @@ export const FAQItem: React.FC<FAQItemProps> = ({ question, answer, htmlAnswer }
 
   return (
     <div className={cn(
-      "border-t border-x border-[#E5E5E5] rounded-md overflow-hidden mb-2",
+      "border border-[#E5E5E5] rounded-md overflow-hidden mb-2",
       isOpen && "shadow-sm"
     )}>
       <button
